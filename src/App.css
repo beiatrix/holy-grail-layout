@@ -53,11 +53,12 @@
 	color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-	from {
-		transform: rotate(0deg);
+@media (max-width: 640px) {
+	.App main {
+		flex-direction: column;
 	}
-	to {
-		transform: rotate(360deg);
+
+	.App nav {
+		order: 1;
 	}
 }

@@ -2,7 +2,9 @@
   "name": "holy-grail-layout",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://beiatrix.github.io/holy-grail-layout",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-scripts": "2.1.8"

@@ -10,11 +10,19 @@ class App extends Component {
           <a href="">Nav Right</a>
         </header>
         <main>
-          <article>MAIN CONTENT</article>
-          <nav>SIDE NAV</nav>
-          <aside>ASIDE</aside>
+          <article>
+            <p>MAIN CONTENT</p>
+          </article>
+          <nav>
+            <p>SIDE NAV</p>
+          </nav>
+          <aside>
+            <p>ASIDE</p>
+          </aside>
         </main>
-        <footer>FOOTER</footer>
+        <footer>
+          <p>FOOTER</p>
+        </footer>
       </div>
     );
   }
